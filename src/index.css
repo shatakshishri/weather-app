@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  font-size: 20px;
+}
+
+/* right */
+
+#right .input-group button{
+  background: none;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#right .input-group input{
+  background: none;
+  color: #fff;
+  border: none;
+}
+
+#right .input-group input:focus{
+  outline: none !important;
+}
+
+#right .input-group{
+  margin-bottom: 0;
+  border-bottom: 1px solid #fff;
+}
+
+#right #second{
+  margin-bottom: 0;
+  border-bottom: 1px solid #fff;
+}
+
+/* right*/
+
+/* left-bottom */
+#left-bottom{
+  color: #fff;
+  position: absolute;
+  /* position: relative; */
+  bottom: 23px;
+  left: 50px;
+}
+/* left-bottom */
+
+/* hamburger */
+#hamburger{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #fff;
+}
+
+#hamburger button{
+  cursor: pointer;
+}
+
+#hamburger i{
+  color: #fff;
+}
+/* hamburger */
+
+/* right-md */
+#right-md{
+  background: rgba(0, 0, 0, 0.438) !important;
+  height: 100vh;
+  width: 100wh;
+}
+
+#right-md #first i{
+  color: white !important;
+}
+/* right-md */
+
+/***************RESPONSIVE*********************/
+/* @media screen and (max-width: 1200px){
+  html, body{
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 1100px){
+  html, body{
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1000px){
+  html, body{
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 900px){
+  html, body{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1100px){
+  html, body{
+    font-size: 27px;
+  }
+} */
+
+
+/***************RESPONSIVE*********************/
